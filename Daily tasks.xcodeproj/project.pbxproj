@@ -14,6 +14,7 @@
 		DA417B421AD5ACB40049F1FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA417B411AD5ACB40049F1FE /* Images.xcassets */; };
 		DA417B451AD5ACB40049F1FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA417B431AD5ACB40049F1FE /* LaunchScreen.xib */; };
 		DA417B511AD5ACB40049F1FE /* Daily_tasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA417B501AD5ACB40049F1FE /* Daily_tasksTests.swift */; };
+		DA417B5B1AD5B5BB0049F1FE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA417B5A1AD5B5BB0049F1FE /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DA417B4A1AD5ACB40049F1FE /* Daily tasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily tasksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA417B4F1AD5ACB40049F1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA417B501AD5ACB40049F1FE /* Daily_tasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_tasksTests.swift; sourceTree = "<group>"; };
+		DA417B5A1AD5B5BB0049F1FE /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				DA417B411AD5ACB40049F1FE /* Images.xcassets */,
 				DA417B431AD5ACB40049F1FE /* LaunchScreen.xib */,
 				DA417B361AD5ACB40049F1FE /* Supporting Files */,
+				DA417B5A1AD5B5BB0049F1FE /* Task.swift */,
 			);
 			path = "Daily tasks";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA417B5B1AD5B5BB0049F1FE /* Task.swift in Sources */,
 				DA417B3D1AD5ACB40049F1FE /* SecondViewController.swift in Sources */,
 				DA417B391AD5ACB40049F1FE /* AppDelegate.swift in Sources */,
 				DA417B3B1AD5ACB40049F1FE /* FirstViewController.swift in Sources */,
@@ -409,6 +413,7 @@
 				DA417B561AD5ACB40049F1FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA417B571AD5ACB40049F1FE /* Build configuration list for PBXNativeTarget "Daily tasksTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				DA417B591AD5ACB40049F1FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

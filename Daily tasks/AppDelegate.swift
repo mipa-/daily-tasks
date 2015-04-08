@@ -14,8 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    var list = [Task]()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.list = [Task(name: "Paskalle", completed: true),Task(name: "Hampaat", completed: true),Task(name: "Vitamiinit", completed: true)]
+        
         return true
     }
 
